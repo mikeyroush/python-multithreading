@@ -9,8 +9,12 @@ def do_something():
     time.sleep(1)
     temp += 1
     return temp
-    
-with concurrent.futures.ThreadPoolExecutor() as executor:
+
+# results = [do_something() for _ in range(10)]  # takes 10 seconds
+# for num in results:
+#     print(num)
+
+with concurrent.futures.ThreadPoolExecutor() as executor: #takes 1 second
     results = [executor.submit(do_something) for _ in range(10)]
 
     for f in concurrent.futures.as_completed(results):
