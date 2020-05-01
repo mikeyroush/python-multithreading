@@ -1,6 +1,6 @@
 # python-multithreading
 
-This project implements a very simple python multithreading example
+This project implements a very simple python multithreading example to demonstrate the speed difference between a single thread and multiple threads
 
 ## Getting Started
 
@@ -13,6 +13,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing and Running
 
 Download the zip and run the program via the command line
+
+... or try in online:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mikeyroush/python-multithreading)
 
 Demo
 
