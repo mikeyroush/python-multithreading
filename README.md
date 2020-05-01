@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Download the zip and run the program via the command line
 
-... or try in online:
+... or try it online:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mikeyroush/python-multithreading)
 
